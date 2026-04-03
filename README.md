@@ -1,4 +1,3 @@
-Arogga Automation Project
 Arogga Automation Framework
 A robust Hybrid Selenium Automation Framework designed for testing the Arogga web application. This project implements the Page Object Model (POM) design pattern combined with Data-Driven Testing for maximum scalability and maintainability.
 
