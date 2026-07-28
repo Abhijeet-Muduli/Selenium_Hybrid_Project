@@ -1,7 +1,7 @@
-Arogga Automation Framework
+# Arogga Automation Framework
 A robust Hybrid Selenium Automation Framework designed for testing the Arogga web application. This project implements the Page Object Model (POM) design pattern combined with Data-Driven Testing for maximum scalability and maintainability.
 
-🚀 Project Features
+## 🚀 Project Features
 Design Pattern: Page Object Model (POM).
 
 Build Tool: Maven.
@@ -18,7 +18,7 @@ Event Listening: Custom WebDriverListener for automatic action logging.
 
 ----
 
-Folder Structure:
+## Folder Structure:
 ├── src/main/java
 │   ├── pages/            # Page Object classes (Business logic)
 │   ├── uistore/          # Element Locators (XPaths, CSS Selectors)
@@ -40,24 +40,24 @@ Maven installed and configured in system PATH.
 
 Chrome or Firefox browser installed.
 
-🏃 How to Run the Tests
+## 🏃 How to Run the Tests
 1. Using Terminal/CLI
 Navigate to the project root directory and execute:
 mvn clean test
 
-📊 Reports & Logs
+## 📊 Reports & Logs
 Execution Report: After running tests, open reports/execution-report.html in any browser to view the visual results and screenshots.
 
 Logs: Detailed step-by-step logs can be found in logs/logfile.log.
 
-🔧 Configuration
+## 🔧 Configuration
 You can modify global settings in config/browser.properties:
 
 Change browser=chrome to browser=firefox to switch browsers.
 
 Update the url to point to different environments (Staging/Production).
 
-📝 Test Scenarios Included
+## 📝 Test Scenarios Included
 Login Module Test:
 
 Navigating to the homepage.
